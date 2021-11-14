@@ -35,13 +35,15 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .education, .experience, .skills, .travelling, .contact, footer{
+.about, .education, .certification, .skills, .project, .travelling, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
 .education .serv-content,
-.experience .serv-content,
+.certification .serv-content,
+.project .serv-content,
 .skills .skills-content,
+.travelling .serv-content,
 .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
@@ -264,11 +266,12 @@ section .title::after{
 
 /* education section styling */
 
-.education, .travelling{
+.education, .skills, .travelling{
     color:#fff;
     background: #111;
 }
 .education .title::before,
+.skills .title::before,
 .travelling .title::before{
     background: #fff;
 }
@@ -287,11 +290,76 @@ section .title::after{
 
 }
 
+/* Certification section styling */
+
+
+.certification .title::after{
+    content: "what I achieved";
+}
+.certification .carousel .card{
+    background: #888;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.certification .carousel .card:hover{
+    background: crimson;
+}
+.certification .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.certification .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.certification .carousel .card .text{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px 10 7px 0;
+}
+.certification .carousel .card img{
+    height: 230px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 0%;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+}
+.certification .carousel .card:hover img{
+    border-color: #fff;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid crimson!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: crimson!important;
+}
 
 
 /* skills section styling */
 
 .skills .title::after{
+    background: #111;
     content: "what i know";
 }
 .skills .skills-content .column{
@@ -368,6 +436,72 @@ section .title::after{
     width: 50%;
 }
 
+
+/* project section styling */
+.project .title::after{
+    content: "what i worked";
+}
+.project .carousel .card{
+    background: #888;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.project .carousel .card:hover{
+    background: crimson;
+}
+.project .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.project .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.project .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.project .carousel .card img{
+    height: 230px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 0%;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+}
+.project .carousel .card:hover img{
+    border-color: #fff;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid crimson!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: crimson!important;
+}
+
+
+
 /* travelling section styling */
 .travelling .title::after{
     content: "where I visited";
@@ -430,6 +564,8 @@ section .title::after{
 .owl-dot:hover{
     background: crimson!important;
 }
+
+
 
 /* contact section styling */
 .contact .title::after{
