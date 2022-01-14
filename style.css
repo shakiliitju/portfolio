@@ -11,6 +11,9 @@ html{
     scroll-behavior: smooth;
 }
 
+
+
+
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -25,6 +28,10 @@ html{
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+
+
+
 
 /* all similar content styling codes */
 section{
@@ -74,11 +81,18 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: rgba(23, 20, 220, 0.699);
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
 }
+
+
+
+
+
+
+
 
 /* navbar styling */
 .navbar{
@@ -91,7 +105,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: rgba(23, 20, 220, 0.699);
 }
 .navbar .max-width{
     display: flex;
@@ -104,7 +118,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    color: rgba(23, 20, 220, 0.699);
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -123,11 +137,16 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: rgba(23, 20, 220, 0.699);
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
 }
+
+
+
+
+
 
 /* menu btn styling */
 .menu-btn{
@@ -140,7 +159,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: #1714dcb2;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -202,20 +221,22 @@ section .title::after{
 }
 .home .home-content a{
     display: inline-block;
-    background: crimson;
+    background: #1714dcb2;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid rgba(23, 20, 220, 0.699);
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: crimson;
+    color: rgba(23, 20, 220, 0.699);
     background: none;
 }
+
+
 
 
 /* about section styling */
@@ -240,25 +261,25 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: crimson;
+    color: rgba(23, 20, 220, 0.699);
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: crimson;
+    background: rgba(23, 20, 220, 0.699);
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid rgba(23, 20, 220, 0.699);
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: crimson;
+    color: rgba(23, 20, 220, 0.699);
     background: none;
 }
 
@@ -290,8 +311,10 @@ section .title::after{
 
 }
 
-/* Certification section styling */
 
+
+
+/* Certification section styling */
 
 .certification .title::after{
     content: "what I achieved";
@@ -305,7 +328,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .certification .carousel .card:hover{
-    background: crimson;
+    background: rgba(23, 20, 220, 0.699);
 }
 .certification .carousel .card .box{
     display: flex;
@@ -327,7 +350,7 @@ section .title::after{
     width: 300px;
     object-fit: cover;
     border-radius: 0%;
-    border: 5px solid crimson;
+    border: 5px solid rgba(23, 20, 220, 0.699);
     transition: all 0.3s ease;
 }
 .certification .carousel .card:hover img{
@@ -343,7 +366,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid crimson!important;
+    border: 2px solid rgba(23, 20, 220, 0.699)!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -352,7 +375,7 @@ section .title::after{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: crimson!important;
+    background: rgba(23, 20, 220, 0.699)!important;
 }
 
 
@@ -374,7 +397,7 @@ section .title::after{
     text-align: justify;
 }
 
-
+/* 
 .skills .skills-content .right .bars{
     margin-bottom: 15px;
 }
@@ -400,7 +423,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: crimson;
+    background: rgba(23, 20, 220, 0.699);
 }
 .skills-content .right .html::before{
     width: 90%;
@@ -434,7 +457,155 @@ section .title::after{
 }
 .skills-content .right .ai::before{
     width: 50%;
+} */
+
+
+
+.skills-container{
+    padding-right: 45px;
 }
+
+.skills-container li{
+    list-style: none;
+    font-weight: bolder;
+    margin: 30px 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.skills-container li::before{
+   content: '';
+   position: absolute;
+   top: calc(100% + 5px);
+   left: 0;
+
+   width: 100%;
+   height: 10px;
+   background-color: rgb(86,86,153,.5);
+   border-radius: 1000px;
+}
+
+
+.skills-container li::after{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+ 
+    width: 0;
+    height: 10px;
+    background-color: rgb(86,86,153,1);
+    border-radius: 1000px;
+
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+ }
+
+ .skills-container li.html::after{
+     animation-name: html;
+ }
+
+ @keyframes html{
+     to{
+         width: 90%;
+     }
+ }
+
+ .skills-container li.css::after{
+    animation-name: css;
+ }
+ 
+ @keyframes css{
+     to{
+         width: 80%;
+     }
+ }
+ 
+ 
+ .skills-container li.js::after{
+    animation-name: js;
+ }
+ 
+ @keyframes js{
+     to{
+         width: 80%;
+     }
+ }
+ 
+ .skills-container li.mysql::after{
+    animation-name: mysql;
+ }
+ 
+ @keyframes mysql{
+     to{
+         width: 70%;
+     }
+ }
+
+ .skills-container li.git::after{
+    animation-name: github;
+ }
+ 
+ @keyframes github{
+     to{
+         width: 75%;
+     }
+ }
+
+ .skills-container li.c::after{
+     animation-name: c;
+  }
+  
+  @keyframes c{
+      to{
+          width: 80%;
+      }
+  }
+ 
+  .skills-container li.java::after{
+    animation-name: java;
+ }
+ 
+ @keyframes java{
+     to{
+         width: 70%;
+     }
+ }
+ 
+ .skills-container li.m::after{
+    animation-name: m;
+ }
+ 
+ @keyframes m{
+     to{
+         width: 85%;
+     }
+ }
+ 
+ .skills-container li.ps::after{
+     animation-name: ps;
+  }
+  
+  @keyframes ps{
+      to{
+          width: 80%;
+      }
+  }
+ 
+ .skills-container li.ai::after{
+    animation-name: ai;
+ }
+ 
+ @keyframes ai{
+     to{
+         width: 60%;
+     }
+ }
+
+
 
 
 /* project section styling */
@@ -450,7 +621,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .project .carousel .card:hover{
-    background: crimson;
+    background: rgba(23, 20, 220, 0.699);
 }
 .project .carousel .card .box{
     display: flex;
@@ -472,7 +643,7 @@ section .title::after{
     width: 300px;
     object-fit: cover;
     border-radius: 0%;
-    border: 5px solid crimson;
+    border: 5px solid rgba(23, 20, 220, 0.699);
     transition: all 0.3s ease;
 }
 .project .carousel .card:hover img{
@@ -488,7 +659,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid crimson!important;
+    border: 2px solid rgba(23, 20, 220, 0.699)!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -497,7 +668,7 @@ section .title::after{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: crimson!important;
+    background: rgba(23, 20, 220, 0.699)!important;
 }
 
 
@@ -515,7 +686,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .travelling .carousel .card:hover{
-    background: crimson;
+    background: rgba(23, 20, 220, 0.699);
 }
 .travelling .carousel .card .box{
     display: flex;
@@ -537,7 +708,7 @@ section .title::after{
     width: 300px;
     object-fit: cover;
     border-radius: 0%;
-    border: 5px solid crimson;
+    border: 5px solid rgba(23, 20, 220, 0.699);
     transition: all 0.3s ease;
 }
 .travelling .carousel .card:hover img{
@@ -553,7 +724,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid crimson!important;
+    border: 2px solid rgba(23, 20, 220, 0.699)!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -562,7 +733,7 @@ section .title::after{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: crimson!important;
+    background: rgba(23, 20, 220, 0.699)!important;
 }
 
 
@@ -595,7 +766,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: rgba(23, 20, 220, 0.699);
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -654,17 +825,17 @@ section .title::after{
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: crimson;
-  border: 2px solid crimson;
+  background: rgba(23, 20, 220, 0.699);
+  border: 2px solid rgba(23, 20, 220, 0.699);
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: crimson;
+  color: rgba(23, 20, 220, 0.699);
   background: none;
 }
 /* footer section styling */
 footer{
-    background: crimson;
+    background: rgba(23, 20, 220, 0.699);
     padding: 15px 23px;
     color: #fff;
     text-align: center;
