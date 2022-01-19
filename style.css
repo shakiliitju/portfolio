@@ -81,7 +81,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: rgba(23, 20, 220, 0.699);
+    color: crimson;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -105,7 +105,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: rgba(23, 20, 220, 0.699);
+    background: linear-gradient(to right, #00f260, #0575e6);
 }
 .navbar .max-width{
     display: flex;
@@ -137,7 +137,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: rgba(23, 20, 220, 0.699);
+    color: linear-gradient(to right, #00f260, #0575e6);
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -159,7 +159,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #1714dcb2;
+    background: linear-gradient(to right, #00f260, #0575e6);
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -221,18 +221,18 @@ section .title::after{
 }
 .home .home-content a{
     display: inline-block;
-    background: #1714dcb2;
+    background: linear-gradient(to right, #00f260, #0575e6);
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid rgba(23, 20, 220, 0.699);
+    border: 2px solid crimson;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: rgba(23, 20, 220, 0.699);
+    color: linear-gradient(to right, #00f260, #0575e6);
     background: none;
 }
 
@@ -261,25 +261,25 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: rgba(23, 20, 220, 0.699);
+    color: crimson;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: rgba(23, 20, 220, 0.699);
+    background: linear-gradient(to right, #00f260, #0575e6);
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid rgba(23, 20, 220, 0.699);
+    border: 2px solid crimson;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: rgba(23, 20, 220, 0.699);
+    color: crimson;
     background: none;
 }
 
@@ -309,7 +309,7 @@ section .title::after{
     margin-bottom: 30px;
 }
 .education .serv-content .card:hover{
-    background: rgba(23, 20, 220, 0.699);
+    background: linear-gradient(to right, #00f260, #0575e6);
 }
 .education .serv-content .card .box{
     width: 334px;
@@ -340,7 +340,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .certification .carousel .card:hover{
-    background: rgba(23, 20, 220, 0.699);
+    background: linear-gradient(to right, #00f260, #0575e6);
 }
 .certification .carousel .card .box{
     
@@ -364,7 +364,7 @@ height: 350px;
     width: 300px;
     object-fit: cover;
     border-radius: 0%;
-    border: 5px solid rgba(23, 20, 220, 0.699);
+    border: 5px solid crimson;
     transition: all 0.3s ease;
 }
 .certification .carousel .card:hover img{
@@ -380,7 +380,7 @@ height: 350px;
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid rgba(23, 20, 220, 0.699)!important;
+    border: 2px solid crimson!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -389,7 +389,7 @@ height: 350px;
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: rgba(23, 20, 220, 0.699)!important;
+    background: linear-gradient(to right, #00f260, #0575e6)!important;
 }
 
 
@@ -508,7 +508,7 @@ height: 350px;
  
     width: 0;
     height: 10px;
-    background-color: rgb(86,86,153,1);
+    background-color: crimson;
     border-radius: 1000px;
 
     animation-duration: 3s;
@@ -635,7 +635,7 @@ height: 350px;
     transition: all 0.3s ease;
 }
 .project .carousel .card:hover{
-    background: rgba(23, 20, 220, 0.699);
+    background: linear-gradient(to right, #00f260, #0575e6);
 }
 .project .carousel .card .box{
     height: 350px;
@@ -658,7 +658,7 @@ height: 350px;
     width: 300px;
     object-fit: cover;
     border-radius: 0%;
-    border: 5px solid rgba(23, 20, 220, 0.699);
+    border: 5px solid crimson;
     transition: all 0.3s ease;
 }
 .project .carousel .card:hover img{
@@ -674,7 +674,7 @@ height: 350px;
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid rgba(23, 20, 220, 0.699)!important;
+    border: 2px solid linear-gradient(to right, #00f260, #0575e6)!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -683,7 +683,7 @@ height: 350px;
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: rgba(23, 20, 220, 0.699)!important;
+    background: linear-gradient(to right, #00f260, #0575e6);
 }
 
 
@@ -701,7 +701,7 @@ height: 350px;
     transition: all 0.3s ease;
 }
 .travelling .carousel .card:hover{
-    background: rgba(23, 20, 220, 0.699);
+    background: linear-gradient(to right, #00f260, #0575e6);
 }
 .travelling .carousel .card .box{
     height: 600px;
@@ -724,7 +724,7 @@ height: 350px;
     width: 300px;
     object-fit: cover;
     border-radius: 0%;
-    border: 5px solid rgba(23, 20, 220, 0.699);
+    border: 5px solid crimson;
     transition: all 0.3s ease;
 }
 .travelling .carousel .card:hover img{
@@ -740,7 +740,7 @@ height: 350px;
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid rgba(23, 20, 220, 0.699)!important;
+    border: 2px solid linear-gradient(to right, #00f260, #0575e6)!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -749,7 +749,7 @@ height: 350px;
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: rgba(23, 20, 220, 0.699)!important;
+    background: linear-gradient(to right, #00f260, #0575e6)!important;
 }
 
 
@@ -782,7 +782,7 @@ height: 350px;
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: rgba(23, 20, 220, 0.699);
+    color: linear-gradient(to right, #00f260, #0575e6);
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -841,17 +841,17 @@ height: 350px;
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: rgba(23, 20, 220, 0.699);
-  border: 2px solid rgba(23, 20, 220, 0.699);
+  background: linear-gradient(to right, #00f260, #0575e6);
+  border: 2px solid crimson;;
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: rgba(23, 20, 220, 0.699);
+  color: crimson;
   background: none;
 }
 /* footer section styling */
 footer{
-    background: rgba(23, 20, 220, 0.699);
+    background: linear-gradient(to right, #00f260, #0575e6);
     padding: 15px 23px;
     color: #fff;
     text-align: center;
