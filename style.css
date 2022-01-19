@@ -304,13 +304,25 @@ section .title::after{
 .education .serv-content .card{
    
     background: #222;
-    text-align: left;
     border-radius: 6px;
-    padding: 10px 1%;
+    padding: 15px 10px 15px 20px;
     margin-bottom: 30px;
-
 }
-
+.education .serv-content .card:hover{
+    background: rgba(23, 20, 220, 0.699);
+}
+.education .serv-content .card .box{
+    width: 334px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.education .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
 
 
 
@@ -331,6 +343,8 @@ section .title::after{
     background: rgba(23, 20, 220, 0.699);
 }
 .certification .carousel .card .box{
+    
+height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -624,6 +638,7 @@ section .title::after{
     background: rgba(23, 20, 220, 0.699);
 }
 .project .carousel .card .box{
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -689,6 +704,7 @@ section .title::after{
     background: rgba(23, 20, 220, 0.699);
 }
 .travelling .carousel .card .box{
+    height: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
