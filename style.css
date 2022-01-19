@@ -534,7 +534,7 @@ height: 350px;
  
  @keyframes css{
      to{
-         width: 80%;
+         width: 70%;
      }
  }
  
@@ -545,7 +545,7 @@ height: 350px;
  
  @keyframes js{
      to{
-         width: 80%;
+         width: 50%;
      }
  }
  
@@ -555,7 +555,7 @@ height: 350px;
  
  @keyframes mysql{
      to{
-         width: 70%;
+         width: 60%;
      }
  }
 
@@ -565,7 +565,7 @@ height: 350px;
  
  @keyframes github{
      to{
-         width: 75%;
+         width: 70%;
      }
  }
 
@@ -585,7 +585,7 @@ height: 350px;
  
  @keyframes java{
      to{
-         width: 70%;
+         width: 60%;
      }
  }
  
@@ -595,7 +595,7 @@ height: 350px;
  
  @keyframes m{
      to{
-         width: 85%;
+         width: 70%;
      }
  }
  
