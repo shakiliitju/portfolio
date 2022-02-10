@@ -50,7 +50,6 @@ section{
 .certification .serv-content,
 .project .serv-content,
 .skills .skills-content,
-.travelling .serv-content,
 .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
@@ -292,8 +291,8 @@ section .title::after{
     background: #111;
 }
 .education .title::before,
-.skills .title::before,
-.travelling .title::before{
+.travelling .title::before,
+.skills .title::before{
     background: #fff;
 }
 .education .title::after,
@@ -689,7 +688,44 @@ height: 350px;
 
 
 /* travelling section styling */
+
+
 .travelling .title::after{
+    content: "where I visited";
+}
+.travelling  .card{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px 25px 35px;
+    margin-bottom: 20px;
+}
+.travelling .card:hover{
+    background: linear-gradient(to right, #00f260, #0575e6);
+}
+.travelling  .card .box{
+    display: flex;
+    margin: 5px 5px;
+}
+.travelling  .card .text{ 
+    text-align: center;
+    padding: 20px; 
+}
+.travelling  .card .box img{
+    height: 230px;
+    width: 300px;
+    border-radius: 0%;
+    border: 5px solid crimson;
+}
+.travelling .card:hover img{
+    border-color: #fff;
+}
+
+
+
+
+
+
+/*.travelling .title::after{
     content: "where I visited";
 }
 .travelling .carousel .card{
@@ -751,7 +787,7 @@ height: 350px;
 .owl-dot:hover{
     background: rgba(23, 20, 220, 0.699)!important;
 }
-
+*/
 
 
 /* contact section styling */
